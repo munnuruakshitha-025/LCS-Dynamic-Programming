@@ -1,0 +1,18 @@
+```text
+Enter first string: ABCDGH
+Enter second string: AEDFHR
+
+DP Table:
+
+    A E D F H R
+  0 0 0 0 0 0 0
+A 1 1 1 1 1 1 1
+B 1 1 1 1 1 1 1
+C 1 1 1 1 1 1 1
+D 1 1 2 2 2 2
+G 1 1 2 2 2 2
+H 1 1 2 2 3 3
+
+Longest Common Subsequence: ADH
+LCS Length: 3
+```
